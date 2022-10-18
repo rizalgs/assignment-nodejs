@@ -1,0 +1,87 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* body{
+  font-family: 'Roboto Condensed', sans-serif;
+} */
+
+.lorem{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.container{
+  padding: 0px 10%;
+}
+
+.home, .experience, .education, .skills, .interest, .awards {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.home-text, .edu-text, .skills-text, .interest-text, .awards-text{
+    margin-bottom: 50px;
+}
+
+.experience-text{
+  margin-bottom: 15px;
+}
+
+.exp-tanggal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-comment{
+  margin-bottom: 0px;
+}
+
+.exp-color, .edu-color, .skills-color, .interest-color{
+  color: rgb(53, 53, 53);
+}
+
+.border-right{
+  border-right: 5px solid grey;
+}
+
+.home-color{
+    color: rgb(255, 115, 0);
+}
+
+h1, h2, h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p{
+  margin: 0px;
+}
+
+.flex{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.flex-img{
+  width: 20px;
+  margin-right: 5px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container-left{
+  width: 40%;
+  /* background-color: red; */
+}
+
+.flex-container-right{
+  /* background-color: blue; */
+  width:60%;
+}
